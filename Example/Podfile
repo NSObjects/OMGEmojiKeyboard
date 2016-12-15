@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OMGEmojiKeyboard_Example' do
+  pod 'OMGEmojiKeyboard', :path => '../'
+
+  target 'OMGEmojiKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
