@@ -1,0 +1,6 @@
+framework module OMGEmojiKeyboard {
+  umbrella header "OMGEmojiKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

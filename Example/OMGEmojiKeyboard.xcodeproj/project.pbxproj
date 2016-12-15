@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* OMGEmojiKeyboard_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMGEmojiKeyboard_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6536004A3A29CCE9DC538FF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		82A24D8F70D1A033F4E9BFCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6536004A3A29CCE9DC538FF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		82A24D8F70D1A033F4E9BFCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A682AE7FDB4CE5E7FD8DEFE8 /* Pods_OMGEmojiKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMGEmojiKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB51B6C9E66F31D35BE56726 /* OMGEmojiKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OMGEmojiKeyboard.podspec; path = ../OMGEmojiKeyboard.podspec; sourceTree = "<group>"; };
+		AB51B6C9E66F31D35BE56726 /* OMGEmojiKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OMGEmojiKeyboard.podspec; path = ../OMGEmojiKeyboard.podspec; sourceTree = "<group>"; };
 		AF837962F32766AD62D799C8 /* Pods-OMGEmojiKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMGEmojiKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMGEmojiKeyboard_Example/Pods-OMGEmojiKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E09BB4092000B13751B72DE0 /* Pods-OMGEmojiKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMGEmojiKeyboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMGEmojiKeyboard_Tests/Pods-OMGEmojiKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F063C2C4312FBECB90C868EA /* Pods-OMGEmojiKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMGEmojiKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMGEmojiKeyboard_Example/Pods-OMGEmojiKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

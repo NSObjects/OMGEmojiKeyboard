@@ -1,0 +1,22 @@
+{
+  "name": "OMGEmojiKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of OMGEmojiKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/OMGEmojiKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NSObjects": "mrqter@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/OMGEmojiKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OMGEmojiKeyboard/Classes/**/*"
+}

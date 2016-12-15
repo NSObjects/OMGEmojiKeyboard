@@ -1,0 +1,16 @@
+PODS:
+  - OMGEmojiKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - OMGEmojiKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  OMGEmojiKeyboard:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OMGEmojiKeyboard: 2fd98dcefe5adee2679fab2ef19e439e19592ce4
+
+PODFILE CHECKSUM: 3caf1c820e7788b3a39baf06e2743f87328a90ca
+
+COCOAPODS: 1.1.1
